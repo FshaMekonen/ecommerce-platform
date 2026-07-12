@@ -132,6 +132,19 @@ pytest app/tests -v
 
 ---
 
+## Future Roadmap
+
+To expand the application into a complete enterprise e-commerce solution, the following enhancements are planned:
+
+- **Real Payment Integration:** Integrate Stripe or PayPal SDKs to process real credit card payments in test mode.
+- **Transactional Notifications:** Set up automated SMTP/SendGrid mailers to dispatch HTML invoices and order status updates.
+- **Stock Lock holds:** Implement a 10-minute temporary inventory reservation hold during the checkout phase.
+- **Caching & Rate Limiting:** Introduce Redis caching for product lists and rate-limiters on authentication routes for safety.
+- **Database Migrations:** Configure Alembic to manage relational schema updates without data loss.
+- **Analytics & Reporting:** Expand the admin panel with graphs for monthly revenue, best-selling products, and user counts.
+
+---
+
 ## License
 
 This project was developed to demonstrate full-stack development skills.
