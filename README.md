@@ -148,3 +148,16 @@ To expand the application into a complete enterprise e-commerce solution, the fo
 ## License
 
 This project was developed to demonstrate full-stack development skills.
+
+---
+
+## 👨‍💻 Developed By
+
+**Fsha Mekonen**  
+Information Technology Student  
+Aksum University
+
+## 📧 Contact
+
+- **Email:** fishmekonenn@gmail.com
+- **GitHub:** https://github.com/FshaMekonen
