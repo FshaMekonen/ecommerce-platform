@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables (never commit real credentials)
+.env
+!.env.example
+
+# Database files
+*.db
+*.sqlite3
+
+# Uploaded user content (keep folder, ignore contents)
+uploads/products/*
+uploads/profiles/*
+!uploads/products/.gitkeep
+!uploads/profiles/.gitkeep
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
