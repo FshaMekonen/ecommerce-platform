@@ -162,7 +162,7 @@ window.views.profile = () => {
             <div class="dashboard-card" style="text-align: center;">
                 <h3 class="dashboard-card-title" style="justify-content: center;">Profile Image</h3>
                 <div style="margin-bottom: 20px;">
-                    <img id="profile-avatar-large" src="${user.profile_image || "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150"}" 
+                    <img id="profile-avatar-large" src="${user.profile_image || "/uploads/profiles/default-avatar.png"}" 
                          style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 4px solid var(--border-color);" alt="Profile">
                 </div>
                 <div class="form-group">

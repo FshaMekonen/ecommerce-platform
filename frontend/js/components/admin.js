@@ -781,7 +781,7 @@ window.views.adminUsers = async () => {
         const rowsHTML = users.map(usr => `
             <tr>
                 <td>#${usr.id}</td>
-                <td><img class="table-img" src="${usr.profile_image || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100'}" style="border-radius: 50%; width: 40px; height: 40px;" alt=""></td>
+                <td><img class="table-img" src="${usr.profile_image || '/uploads/profiles/default-avatar.png'}" style="border-radius: 50%; width: 40px; height: 40px;" alt=""></td>
                 <td><strong style="color: var(--text-primary);">${usr.full_name}</strong></td>
                 <td>${usr.email}</td>
                 <td>

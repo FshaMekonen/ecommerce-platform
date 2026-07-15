@@ -32,10 +32,27 @@ NexShop is a full-stack e-commerce web application that simulates a real-world o
 
 ---
 
+## Screenshots
+
+### Dashboard
+![Dashboard](Asset/dashboard.png)
+
+### Login Form
+![Login Form](Asset/login.png)
+
+### Admin Panel
+![Admin Panel](Asset/admin.png)
+
+### Customer View
+![Customer View](Asset/customer.png)
+
+---
+
 ## Project Structure
 
 ```
 ecommerce-platform/
+├── Asset/                 # UI Screenshots
 ├── backend/               # FastAPI REST API Backend
 │   ├── app/               # Application package (models, schemas, routers, tests)
 │   ├── .env               # Local environment settings

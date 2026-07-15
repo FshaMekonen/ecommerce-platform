@@ -156,7 +156,7 @@ const app = {
             if (avatarImg) {
                 avatarImg.src = state.user.profile_image || "/uploads/profiles/default-avatar.png";
                 avatarImg.onerror = () => {
-                    avatarImg.src = "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150";
+                    avatarImg.src = "/uploads/profiles/default-avatar.png";
                 };
             }
             
